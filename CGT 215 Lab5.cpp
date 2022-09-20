@@ -14,7 +14,6 @@ void getWord()
     string outPut = "";
     cout << "Input text to cypher: ";
     getline(cin, words);
-    cout << words.at(1);
     int position = 0;
     
     for (int i = 0; i < words.length(); i++)
